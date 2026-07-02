@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!-- First task -->
+    <div class="slider">
+        
+  <input type="range" min="1" max="100" value="50" class="slider__input" />
+  <span>Min</span><span class="max">Max</span>
+  <img src="./img/yoga.jpeg" class="slider__image" />
+</div>
+
+<!-- Second task -->
+ <p class="text">Добавив кнопку яка вмикає рух боксу та вимикає при наступному натисанні, бо паралельно робив завдання один, та бокс заважав + трохи папрактикувався з кодом (у бокса z-index: -1; щоб можна будо з легкість натиснути на кнопку, ховається за фото. Знаю, що можна було відключити друге завдання, але так цікавіше)</p>
+ <button class="toggleTaskTwo">Toggle task 2</button>
+ <div id="box"></div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.18.1/lodash.min.js"></script>
+  <script src="./js/taskOne.js" type="module"></script>
+  <script src="./js/taskTwo.js" type="module"></script>
+</body>
+</html>
